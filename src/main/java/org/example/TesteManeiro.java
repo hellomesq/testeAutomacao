@@ -10,7 +10,7 @@ public class TesteManeiro {
     public void TesteWeb() {
         WebDriver driver = new ChromeDriver();
         driver.get("https:\\www.google.com");
-
+        driver.getCurrentUrl().equals("https:\\www.google.com");
     }
 
 }
