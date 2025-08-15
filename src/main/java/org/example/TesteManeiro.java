@@ -11,6 +11,7 @@ public class TesteManeiro {
         WebDriver driver = new ChromeDriver();
         driver.get("https:\\www.google.com");
         driver.getCurrentUrl().equals("https:\\www.google.com");
+        driver.findElement(By.id("APjFqb")).sendKeys("One Metallica");
     }
 
 }
